@@ -166,7 +166,7 @@
 </div>
 <div class="row mt-5">
   
-    <a href="case.html"  type="button" class="btn btn-outline-danger  " style="margin: auto; width: 30%;">Xem tất cả</a>
+    <a href="{{ route('proshow.show',$item->categoryID) }}"  type="button" class="btn btn-outline-danger  " style="margin: auto; width: 30%;">Xem tất cả</a>
   
 </div>
 </div>
@@ -214,7 +214,7 @@
   </div>
   <div class="row mt-5">
 
-      <a href="card.html"   type="button" class="btn btn-outline-danger  " style="margin: auto; width: 30%;">Xem tất cả</a>
+      <a href="{{ route('proshow.show',$item->categoryID) }}"   type="button" class="btn btn-outline-danger  " style="margin: auto; width: 30%;">Xem tất cả</a>
       
   </div>
  </div>
