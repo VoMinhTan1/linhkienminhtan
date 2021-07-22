@@ -67,9 +67,7 @@
 							Hoặc đăng kí tài khoản
 						</span>
 
-						<a href="{{ route('register') }}" class="txt2">
-							Đăng kí
-						</a>
+						<a href="{{ route('register') }}" class="btn btn-primary"> Đăng Ký</a>
 					</div>
 				</form>
 			</div>

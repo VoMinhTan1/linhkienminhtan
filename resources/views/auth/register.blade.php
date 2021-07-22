@@ -49,9 +49,7 @@
 							Đã có tài khoản ?
 						</span>
 
-						<a href="{{ route('login') }}" class="txt2">
-							Đăng nhập ngay
-						</a>
+						<a href="{{ route('login') }}" class="btn btn-primary"> Đăng Nhập</a>
 					</div>
 
 					<div class="txt1 text-center p-t-54 p-b-20">
