@@ -81,7 +81,7 @@
       
         <!-- Copyright -->
         <div class="footer-copyright text-center py-2">© 2021 Copyright:
-          <a href="https://tdmu.edu.vn/" style="color: white;"> TDMU</a>
+          <a href="https://www.facebook.com/tan.vo.18400/" style="color: white;"> Patrick Võ</a>
         </div>
         <!-- Copyright -->
       
