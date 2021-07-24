@@ -20,11 +20,6 @@
 						<input class="input100" type="password" name="password" id="password" type="password" placeholder="Nhập mật khẩu !">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
-					@error('password')
-                                    <span class="invalid-feedback1" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
 					<div class="text-right p-t-8 p-b-31">
 						@if (Route::has('password.request'))
 						<a href="{{ route('password.request') }}">
@@ -66,7 +61,6 @@
 						<span class="txt1 p-b-17">
 							Hoặc đăng kí tài khoản
 						</span>
-
 						<a href="{{ route('register') }}" class="btn btn-primary"> Đăng Ký</a>
 					</div>
 				</form>

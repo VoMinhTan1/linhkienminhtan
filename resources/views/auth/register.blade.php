@@ -36,6 +36,7 @@
 						<input class="input100" type="password" name="password_confirmation" id="password-confirm"  placeholder="Nhập lại mật khẩu !" required autocomplete="new-password">
 						<span class="focus-input100" data-symbol="&#xf190;"></span>
 					</div>
+					<div><br></br></div>
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
@@ -48,7 +49,6 @@
 						<span class="txt1 p-b-17">
 							Đã có tài khoản ?
 						</span>
-
 						<a href="{{ route('login') }}" class="btn btn-primary"> Đăng Nhập</a>
 					</div>
 
