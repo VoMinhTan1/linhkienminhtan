@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md header-background navbar-dark ">
         
      
-        <a class="nav-link btn btn-primary " href="{{route('home')}}" > <i class="fas fa-home"></i>      Trang chủ</a>
+        <a class="nav-link btn btn-primary " href="{{route('home')}}" > <i class="fas fa-home"></i>      MTSHOP</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
