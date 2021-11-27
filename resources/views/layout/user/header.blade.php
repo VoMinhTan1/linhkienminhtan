@@ -1,11 +1,7 @@
 <nav class="navbar navbar-expand-md header-background navbar-dark ">
         
-    <a class="navbar-brand" href="#">
      
-        <i class="fas fa-home"></i>
-        <h5>Home</h5>
-
-    </a>
+        <a class="nav-link btn btn-primary " href="{{route('home')}}" > <i class="fas fa-home"></i>      Trang chủ</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -183,7 +179,6 @@
         <div class="container-fluid fixed-top " style="margin-top: 58px; z-index: -1; position: absolute;">
     
           <nav class="navbar hr  ">
-           <a class="nav-link btn btn-primary " href="{{route('home')}}" > <i class="fas fa-home"></i>      Trang chủ</a>
             <a class="nav-link" href="{{ route('gioithieu') }}" ><i class="far fa-hand-point-right"></i>   Giới thiệu</a>
             
                 <li class="nav-item dropdown">  
